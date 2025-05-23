@@ -1,0 +1,114 @@
+
+*{
+    font-family: roboto-regular, Roboto, sans-serif;
+    margin: 0px;
+    color: #dadada;
+    /* margin: 3px ;
+    border: 2px solid red; */
+}
+
+body{
+    background-color: #0d0d0d;
+    display: flex;
+    flex-direction: column;
+    margin: 0px ;
+    border: 0px solid red;
+}
+
+a, a:hover, a:focus, a:active{
+    text-decoration: none;
+    color: inherit;
+}
+
+.header{
+    background-color: #121212;
+    display: flex;
+    justify-content: left;
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+}
+
+.fa.fa-bars{
+    margin-left: 1vw;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-right: 1vw;
+    font-size: 30px;
+    padding: 0;
+}
+
+ul.index{
+    text-decoration: underline;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+ul.social-media{
+    margin-left: auto;
+}
+
+.fa.fa-instagram:hover{
+    transition: 0.3s;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text; /* For Safari/Chrome */
+    color: transparent;
+}
+
+.fa.fa-reddit-alien:hover{
+    transition: 0.4s;
+    background:fixed orangered;
+    background-clip: text;
+    -webkit-background-clip: text; /* For Safari/Chrome */
+    color: transparent;
+}
+
+.fa.fa-twitter{
+    font-size: 36px;
+    
+}
+
+.fa.fa-twitter:hover{
+    transition: 0.4s;
+    background:fixed #1DA1F2;
+    background-clip: text;
+    -webkit-background-clip: text; /* For Safari/Chrome */
+    color: transparent;
+}
+
+.hero{
+    margin-left: 1vw;
+    margin-top: 20px;
+    max-width: 350px;
+}
+
+.hero-title{
+    color: #aa43ef;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.hero-title{
+    color: #aa43ef;
+    font-weight: bolder;
+    font-size: large;
+}
+
+
+.footer{
+    display: flex;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
